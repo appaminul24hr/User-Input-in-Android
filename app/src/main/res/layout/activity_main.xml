@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#009688"
+    android:padding="25dp"
+    android:orientation="vertical"
+    >
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Name"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="10dp"
+        >
+    </TextView>
+
+
+
+
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:padding="15dp"
+        android:ems="10"
+        android:hint="Please Enter Your Name: "
+        android:inputType="textPersonName"
+        >
+    </EditText>
+
+
+
+
+
+    <Button
+        android:id="@+id/clickBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Here!"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#ffffff"
+        >
+    </Button>
+
+
+
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25sp"
+        android:textColor="#FFEB3B"
+        android:layout_marginTop="25dp"
+        android:padding="20dp"
+        >
+    </TextView>
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
